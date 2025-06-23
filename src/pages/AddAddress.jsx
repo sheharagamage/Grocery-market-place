@@ -59,7 +59,7 @@ const AddAddress = () => {
                         name='lastName' type="text" placeholder="Last Name"/>
                     </div>
                     <InputField  handleChange={handleChange} address={address}
-                    name='email' type="text" placeholder="Email address"/>
+                    name='email'  placeholder="Email address"/>
                     <InputField  handleChange={handleChange} address={address}
                     name='street' type="text" placeholder="Street"/>
                     <div className='grid grid-cols-2 gap-4'>
